@@ -7,9 +7,9 @@ function App() {
   const name = "Top";
   return (
     <div className="App">
-      <Hello />
-      <Hello />
-      <Hello />
+      <Hello age={10} />
+      <Hello age={5} />
+      <Hello age={2} />
       <div className={styles.box}>App</div>
     </div>
   );
