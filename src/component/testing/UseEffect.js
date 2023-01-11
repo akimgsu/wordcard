@@ -1,6 +1,16 @@
 import { useEffect, useState } from "react";
 import Timer from "./Timer";
 
+/*
+useEffect( () => {}); rendering every time
+useEffect( () => {}, []); rendering only start
+useEffect( () => {}, [value]); rendering when value updates
+useEffect( () => { // subscribe 
+return () => {
+    // unsubscribe
+}}, []); clean up
+*/
+
 const heavyWork = () => {
     console.log("heavy working...");
     return ["Jack", "Bob"];

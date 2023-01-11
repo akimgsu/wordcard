@@ -10,6 +10,13 @@ const justCal = (number) => {
     return number + 1;
 }
 
+/*
+Optimizing component 
+useMemo & useCallback
+useMemo is a caching
+useCallback is a caching for func 
+*/
+
 
 const UseMemo = () => {
     const [longNum, setLongNum] = useState(1);

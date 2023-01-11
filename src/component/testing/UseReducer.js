@@ -4,6 +4,7 @@ import Student from "./Student";
 // reducer
 // dispatch
 // action
+// Dispatch(Action) ---> Reducer (State, Action) ---> update State.
 
 const ACTION_TYPES = {
     deposit: 'deposit',

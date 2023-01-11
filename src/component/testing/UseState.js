@@ -5,6 +5,10 @@ const heavyWork = () => {
     return ["Jack", "Bob"];
 }
 
+/*
+useState
+*/
+
 export default function UseSate({ age }) {
     // const [names, setNames] = useState(heavyWork());
     const [names, setNames] = useState(() => {
